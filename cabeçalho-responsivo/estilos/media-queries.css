@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+@media screen and (min-width:768px){
+
+    main{
+        width: 768px;
+        margin: auto;
+    }
+
+    span#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+        
+    }
+
+    menu li{
+        display: inline-block;
+        width: 150px;
+        
+    }
+    menu a{
+        border: none;
+    }
+    header{
+        background-color: rgb(255, 202, 183);
+    }
+
+    #square{
+        width: 500px;
+    }
+
+}
+

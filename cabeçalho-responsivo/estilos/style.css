@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: white;
+}
+
+header h1{
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+span#burguer{
+    display: block;
+    text-align: center;
+   background-color: orangered;
+   padding: 10px;
+}
+
+#burguer:hover{
+    cursor:pointer;
+    background-color: rgb(255, 138, 87);
+}
+
+
+
+menu{
+    display: none;
+}
+menu ul{
+    list-style-type: none;
+}
+menu a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    background-color: coral;
+    color: white;
+    border-top: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+menu a:hover{
+    background-color: rgb(255, 108, 55);
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    filter:brightness(100%);
+    margin: auto;
+    
+
+}
+
+main{
+    
+    width: 80vw;
+    margin: auto;  
+}
+
+article#caixa{
+    background-color: rgba(255, 94, 0, 0.428);
+    padding: 20px;
+    border-radius:20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.458);
+    filter: brightness(100%);
+    margin-top: 20px;
+    
+}
+
+article#txt{
+    background-color: rgba(255, 88, 5, 0.081);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.458);
+    margin: auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+   
+}
+
+#square{
+    display:block;
+    width: 325px;
+    height: 200px;
+    margin: auto;
+    border-radius: 20px;
+    background-image: url(../imagens/canada.jpeg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.379);
+    filter: brightness(90%);
+}
+
+#square:hover{
+    filter: brightness(100%);
+}
+
+.desc{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.361);
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+a#botao{
+    display: block;
+    font-size: 18px;
+    width: 180px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:auto;
+    padding: 20px;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.124);
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    filter: brightness(100%);
+}
+
+#botao:hover{
+    background-color:rgb(245, 107, 57);
+    padding: 23px;
+    margin-bottom: -6px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+}
+

@@ -1,0 +1,148 @@
+@charset "utf8";
+
+
+
+/*CONFIGURAÇÕES PARA TABLET*/
+@media screen and (min-width:768px) and (max-width:1080px){
+
+    body{
+        background-image: linear-gradient(to top, coral,rgba(255, 115, 0, 0.814));
+    }
+
+    section#tela{
+        width: 80vw;
+        height: 380px;
+    }
+
+    div#img{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    
+
+    div#inps{
+        float: right;
+        height: 100%;
+        margin-top: 20px;
+        border-radius: 0px 20px 20px 0px;
+        width: 60%;
+       
+       
+    }
+
+    #inps>p{
+        font-size: 1.1em;
+        margin-bottom: 25px;
+    }
+    #inps>h1{
+        font-size: 1.8em;
+    }
+    
+}
+
+/*CONFIGUREAÇÕES PARA DESKTOP*/
+
+@media screen and (min-width:1080px) and (max-width:1480px) {
+
+    body{
+        background-image: linear-gradient(to top, coral,rgba(255, 115, 0, 0.814));
+    }
+
+
+    section#tela{
+        width:70vw;
+        height: 520px;
+    }
+
+    div#img{    
+        float:right;
+        width:55%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+ 
+    div#inps{
+        margin-top: 30px;
+        
+        float: left;
+        height: 100%;
+        width: 45%;
+        
+        border-radius: 0px 20px 20px 0px;
+        
+       
+        
+    }
+
+    #inps>p{
+        font-size: 1.3em;
+        margin-bottom: 80px;
+    }
+    #inps>h1{
+        font-size: 2em;
+    }
+
+    #bts{
+        margin-top: 50px;
+    }
+
+
+}
+
+
+@media screen and (min-width:1480px) {
+
+    body{
+        background-image: linear-gradient(to top, coral,rgba(255, 115, 0, 0.814));
+    }
+
+
+    section#tela{
+        width:60vw;
+        height: 520px;
+    }
+
+    div#img{    
+        float:right;
+        width:60%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+ 
+    div#inps{
+        margin-top: 30px;
+        
+        float: left;
+        height: 100%;
+        width: 40%;
+        
+        border-radius: 0px 20px 20px 0px;
+        
+       
+        
+    }
+
+    #inps>p{
+        font-size: 1.3em;
+        margin-bottom: 80px;
+    }
+    #inps>h1{
+        font-size: 2em;
+    }
+
+    #bts{
+        margin-top: 50px;
+    }
+
+   
+
+    
+    
+    
+
+}

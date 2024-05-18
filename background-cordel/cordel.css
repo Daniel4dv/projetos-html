@@ -1,0 +1,128 @@
+@font-face {
+    font-family: title;
+    src: url(PassionOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(Sriracha-Regular.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body,html{
+    min-height: 100vh;
+}
+
+#wp1{
+    background-image: url(imagens/damaris.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#wp2{
+    background-image: url(imagens/torre.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: black;
+    background-image: url(imagens/tesouro.jpg);
+    filter: brightness(65%);
+    background-size: contain;
+    background-attachment: fixed;
+   
+}
+
+
+
+h1,h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    filter: brightness(100%);
+
+}
+header > h1{
+    padding-top: 50px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.277);
+    font-family: title;
+    font-size: 10vw;
+    letter-spacing: 10px;
+    font-weight: light;
+    font-variant: small-caps;
+}
+h2{  
+    padding-top: 10px;
+    font-size:16px;
+    padding-bottom: 50px;
+}
+
+p{
+    font-family: texto;
+    font-weight: light;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.105);
+}
+
+
+
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 3;
+    font-size: 3.5vw;
+    
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+    
+    
+   
+}
+
+section.img{
+   background-color: rgba(0, 0, 0, 0.493); 
+   color: white;
+   background-image: url(imagens/torre.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   padding-left: 0px;
+   
+   
+}
+
+#img2{
+    background-image: url(imagens/damaris.jpeg); 
+    background-position: center center; 
+}
+
+#img3{
+    background-image: url(imagens/portugal.jpeg);
+    background-position: top left;
+}
+section.img > p{
+    background-color: rgba(0, 0, 0, 0.532);
+    width:45vw;
+    margin-left: 20px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.371);
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+#rem{
+    font-weight: lighter;
+    font-family: title;
+    line-height: 20px;
+}
+
+

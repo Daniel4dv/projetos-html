@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body onresize="mudouTamanho()">
+
+<header>
+
+<h1>Xu Passeios</h1>
+
+<span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">Menu</span>
+
+<menu id="cab">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Estudar</a></li>
+        <li><a href="#">Trabalhar</a></li>
+        <li><a href="#">Viajar</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+</menu>
+</header>    
+
+<main>
+
+
+<article id="caixa">
+    
+        <div id="square"></div>
+    
+        <p class="desc">Conheça o Canadá, um dos países com o melhor custo beneficio e melhor qualidade de vida</p>,
+        <div style="display: block;">
+            
+            <div> <a id="botao" href="#">Saiba mais</a></div>
+        </div>
+
+       
+
+</article>
+
+<article id="txt">
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi quis minus, non deleniti commodi aut saepe, hic inventore illo, numquam voluptatum ipsam excepturi aliquam sed unde distinctio assumenda harum omnis.
+    </p>
+    <br>
+       <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, ipsa sequi deleniti necessitatibus non, alias illo mollitia eveniet hic ducimus, quo sint? Nobis dolorem reiciendis nulla ratione? Ad, molestiae! Incidunt?</p> <br>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quidem ducimus tempore temporibus, magni nostrum placeat mollitia quo sapiente, commodi non aut quisquam impedit? Perspiciatis quibusdam inventore expedita asperiores repellat. 
+    </p> <br>
+
+    <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quod ea at aperiam minus velit sit, libero necessitatibus recusandae veritatis iure totam cupiditate dignissimos? Iure minima repellat possimus adipisci unde!</p>
+</article>
+
+
+  
+
+</main>
+
+
+
+
+<script>
+
+   
+    function mudouTamanho(){
+        if (window.innerWidth >=768){
+            cab.style.display ='block'
+        }else{
+            cab.style.display='none'
+        }
+        }
+
+
+    function clickMenu(){
+
+        if (cab.style.display=='block'){
+        cab.style.display='none'
+        }
+        else{
+            cab.style.display="block"
+        }
+    }
+
+</script>
+
+
+</body>
+</html>
